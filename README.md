@@ -1,12 +1,12 @@
 # 📊 Documentación del Proyecto — Clasificación de Riesgo de Salud
 
-## 🧠 Integrantes del Grupo
+##  Integrantes del Grupo
 - **Anny Consuelo Arias Figueroa**
 - **Leonardo José Sullón Lévano**
 
 ---
 
-## 🎯 Objetivos del Análisis
+##  Objetivos del Análisis
 - Identificar cómo factores como la edad, el ejercicio, el sueño, la ingesta de azúcar, el consumo de alcohol y el tabaquismo influyen en el nivel de riesgo de salud.  
 - Limpiar, codificar y escalar las variables numéricas y categóricas para preparar el dataset para los modelos de Machine Learning.  
 - Entrenar y comparar al menos dos algoritmos de clasificación.  
@@ -16,7 +16,7 @@
 
 ---
 
-## 🧩 Formulación Analítica y Diccionario de Datos
+##  Formulación Analítica y Diccionario de Datos
 
 | Variable | Tipo | Descripción | Notas |
 |-----------|------|--------------|-------|
@@ -35,7 +35,7 @@
 
 ---
 
-## ⚙️ Configuración Inicial
+##  Configuración Inicial
 Librerías principales:
 - `pandas`, `numpy`, `matplotlib`
 - `scikit-learn` (para modelado, preprocesamiento, métricas)
@@ -45,7 +45,7 @@ Configuración reproducible mediante `random_state = 42`.
 
 ---
 
-## 📥 Recolección del Dataset
+##  Recolección del Dataset
 Dataset obtenido de **KaggleHub**:  
 **"Lifestyle and Health Risk Prediction"**
 
@@ -53,7 +53,7 @@ Dimensiones aproximadas: `(filas, columnas)` con diversas variables de estilo de
 
 ---
 
-## 🔍 Análisis Exploratorio de Datos (EDA)
+##  Análisis Exploratorio de Datos (EDA)
 - Verificación de valores nulos (mínimos).  
 - Balance de clases: riesgo bajo, medio y alto.  
 - Estadísticas descriptivas (`describe()`).  
@@ -61,7 +61,7 @@ Dimensiones aproximadas: `(filas, columnas)` con diversas variables de estilo de
 
 ---
 
-## 🧪 Transformación de Datos
+##  Transformación de Datos
 - División en variables **X** (predictoras) y **y** (objetivo).  
 - Imputación de valores faltantes (`SimpleImputer`).  
 - Estandarización (`StandardScaler`) para numéricas.  
@@ -70,7 +70,7 @@ Dimensiones aproximadas: `(filas, columnas)` con diversas variables de estilo de
 
 ---
 
-## 🤖 Modelado
+##  Modelado
 Se entrenaron dos modelos:
 1. **Regresión Logística**
 2. **Random Forest**
@@ -88,7 +88,7 @@ Para cada modelo se calcularon:
 
 ---
 
-## 🚀 Despliegue
+##  Despliegue
 - Modelo guardado en `outputs/best_model_<modelo>.pkl`.  
 - Resultados exportados en `outputs/predicciones_test.csv`.
 
@@ -97,7 +97,7 @@ El CSV incluye:
 
 ---
 
-## 🧭 Conclusiones
+##  Conclusiones
 - El proyecto demuestra un flujo completo de clasificación con Machine Learning.  
 - Se evidencia la importancia del preprocesamiento para obtener métricas confiables.  
 - El modelo puede ser base para estudios de **salud preventiva** o **bienestar personal**.
