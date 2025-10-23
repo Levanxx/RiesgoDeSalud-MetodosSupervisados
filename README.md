@@ -106,4 +106,4 @@ El CSV incluye:
 
 **Autores:**  
 Leonardo José Sullón Lévano ✦ Anny Consuelo Arias Figueroa  
-*Universidad Continental – Curso de Machine Learning (2025)*
+*Universidad Continental – Curso de Metodos Supervisados (2025)*
