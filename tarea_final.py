@@ -36,9 +36,6 @@ En función del dataset escogido trabajar en un proceso de clasificación de acu
   9. Evaluación de modelos.
   10. Despliegue: a través de un modelo pkl y de un csv con los resultados de la clasificación. (revisar los notebooks de las clases 1 y 2)  
 
-**Fecha de entrega de la tarea**
-
-Jueves 23 de octubre de 2025 23h00 enviada a mi correo agonzaleze@continental.edu.pe
 """
 
 import kagglehub
